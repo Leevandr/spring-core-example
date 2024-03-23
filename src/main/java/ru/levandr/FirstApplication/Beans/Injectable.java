@@ -1,4 +1,4 @@
-package ru.levandr.Beans;
+package ru.levandr.FirstApplication.Beans;
 
 public class Injectable {
 

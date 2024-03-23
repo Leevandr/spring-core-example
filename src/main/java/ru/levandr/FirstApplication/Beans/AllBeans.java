@@ -1,8 +1,8 @@
-package ru.levandr.Beans;
+package ru.levandr.FirstApplication.Beans;
 
-import ru.levandr.Annotation.Inject;
-import ru.levandr.Beans.Calculator.Calculator;
-import ru.levandr.Beans.Calculator.Expression;
+import ru.levandr.FirstApplication.Annotation.Inject;
+import ru.levandr.FirstApplication.Beans.Calculator.Calculator;
+import ru.levandr.FirstApplication.Beans.Calculator.Expression;
 
 public class AllBeans {
 

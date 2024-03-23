@@ -1,6 +1,6 @@
-package ru.levandr.Beans;
+package ru.levandr.FirstApplication.Beans;
 
-import ru.levandr.Annotation.Inject;
+import ru.levandr.FirstApplication.Annotation.Inject;
 
 
 public class Source {
