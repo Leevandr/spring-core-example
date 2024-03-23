@@ -11,6 +11,5 @@ public class Main {
         beanFactory.register(Source.class);
 
 
-
     }
 }

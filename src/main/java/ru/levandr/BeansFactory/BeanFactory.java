@@ -25,7 +25,7 @@ public class BeanFactory {
             if (field.isAnnotationPresent(Inject.class)) {
                 Object bean = container.get(field.getType());
 
-                if (bean == null){
+                if (bean == null) {
                     continue;
                 }
                 field.setAccessible(true);
@@ -39,7 +39,7 @@ public class BeanFactory {
         }
     }
 
-    public <T> T getBean(Class<T> type){
+    public <T> T getBean(Class<T> type) {
         Object bean = container.get(type);
 
         if (bean == null) {

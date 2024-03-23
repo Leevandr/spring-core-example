@@ -8,7 +8,7 @@ public class Source {
     @Inject // Наша аннотация
     private Injectable injectable; //Свойство
 
-    public void call(){
+    public void call() {
         // Просто метод
         System.out.println("Source calling call");
         injectable.doWork();
