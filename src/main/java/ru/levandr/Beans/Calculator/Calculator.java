@@ -42,10 +42,10 @@ public class Calculator {
                 if (lhs == 0 || rhs == 0) {
                     throw new IllegalArgumentException("Division by Zero is not allowed");
                 }
-                System.out.printf("Результат %d / %d = %d%n",lhs,rhs, lhs / rhs);
+                System.out.printf("Результат %d / %d = %d%n", lhs, rhs, lhs / rhs);
             }
             case Exponentiation -> System.out.printf("Результат %d ^ %d = %d%n", lhs, rhs, (long) Math.pow(lhs, rhs));
-            case MULTIPLICATION -> System.out.printf("Результат %d * %d = %d%n", lhs,rhs, lhs * rhs);
+            case MULTIPLICATION -> System.out.printf("Результат %d * %d = %d%n", lhs, rhs, lhs * rhs);
             default -> throw new IllegalArgumentException("Unsupported operation");
         }
     }

@@ -26,10 +26,10 @@ public class AllBeans {
         System.out.println("...");
         System.out.println("...");
         System.out.println("Calculator bean");
-        calculator.calculateIntegers(10,10, Expression.PLUS);
-        calculator.calculateIntegers(10,10, Expression.MINUS);
-        calculator.calculateIntegers(10,10, Expression.DIVISION);
-        calculator.calculateIntegers(10,10, Expression.MULTIPLICATION);
-        calculator.calculateIntegers(10,10, Expression.Exponentiation);
+        calculator.calculateIntegers(10, 10, Expression.PLUS);
+        calculator.calculateIntegers(10, 10, Expression.MINUS);
+        calculator.calculateIntegers(10, 10, Expression.DIVISION);
+        calculator.calculateIntegers(10, 10, Expression.MULTIPLICATION);
+        calculator.calculateIntegers(10, 10, Expression.Exponentiation);
     }
 }
