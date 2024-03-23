@@ -1,10 +1,11 @@
-package ru.levandr;
+package ru.levandr.BeansFactory;
+
+import ru.levandr.Annotation.Inject;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.NoSuchElementException;
 
 
 public class BeanFactory {

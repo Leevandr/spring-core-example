@@ -1,4 +1,6 @@
-package ru.levandr;
+package ru.levandr.Beans;
+
+import ru.levandr.Annotation.Inject;
 
 public class Source {
     // Класс в который мы будем внедрять наш Injectable класс

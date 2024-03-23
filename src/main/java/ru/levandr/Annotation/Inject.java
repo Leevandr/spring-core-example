@@ -1,4 +1,4 @@
-package ru.levandr;
+package ru.levandr.Annotation;
 
 
 import java.lang.annotation.Retention;
