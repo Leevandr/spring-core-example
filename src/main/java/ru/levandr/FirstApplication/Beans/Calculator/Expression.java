@@ -1,4 +1,4 @@
-package ru.levandr.Beans.Calculator;
+package ru.levandr.FirstApplication.Beans.Calculator;
 
 public enum Expression {
     PLUS,

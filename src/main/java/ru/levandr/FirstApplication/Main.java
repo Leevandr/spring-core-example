@@ -1,10 +1,10 @@
-package ru.levandr;
+package ru.levandr.FirstApplication;
 
-import ru.levandr.Beans.AllBeans;
-import ru.levandr.Beans.Calculator.Calculator;
-import ru.levandr.Beans.Injectable;
-import ru.levandr.Beans.Source;
-import ru.levandr.BeansFactory.BeanFactory;
+import ru.levandr.FirstApplication.Beans.AllBeans;
+import ru.levandr.FirstApplication.Beans.Calculator.Calculator;
+import ru.levandr.FirstApplication.Beans.Injectable;
+import ru.levandr.FirstApplication.Beans.Source;
+import ru.levandr.FirstApplication.BeansFactory.BeanFactory;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
-package ru.levandr.BeansFactory;
+package ru.levandr.FirstApplication.BeansFactory;
 
-import ru.levandr.Annotation.Inject;
+import ru.levandr.FirstApplication.Annotation.Inject;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
