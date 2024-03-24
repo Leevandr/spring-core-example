@@ -24,7 +24,7 @@ public class MathAlgorithm {
 
     public String calculate(String input) {
         if (!Pattern.matches("[01]{8}", input)) {
-            throw new IllegalArgumentException("Input must consist of eight digits (zero or one)");
+            throw new IllegalArgumentException("Ввод должен состоять из восьми цифр (ноль или единица).");
         }
 
         List<int[]> jmas = new ArrayList<>();
