@@ -11,7 +11,7 @@ public class Main {
 
         SimpleBean simpleBean = context.getBean(SimpleBean.class);
 
-        ((AbstractApplicationContext)context).getBeanFactory().destroyBean(simpleBean);
+        ((AbstractApplicationContext)context).getBeanFactory().destroyBean("simpleBean",simpleBean);
 
     }
 
