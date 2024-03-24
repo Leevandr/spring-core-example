@@ -1,10 +1,12 @@
 package ru.levandr.ThirdSingletonAndPrototypeApplication;
 
+import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 import java.time.Instant;
 
 @Component
+@Lazy
 public class SecondSingleton {
     private final Instant createdTime;
 
@@ -18,7 +20,7 @@ public class SecondSingleton {
         prototypeComponent.printCreatedTime();
     }
 
-    public void printCreatedTime(){
+    public void printCreatedTime() {
         System.out.println("SecondSingleton created at: " + createdTime);
     }
 }

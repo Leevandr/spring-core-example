@@ -10,12 +10,13 @@ import java.time.Instant;
 public class PrototypeComponent {
     public final Instant createdTime;
 
-    public PrototypeComponent(){
+    public PrototypeComponent() {
         System.out.println("PrototypeComponent created");
         createdTime = Instant.now();
         printCreatedTime();
     }
-    public void printCreatedTime(){
+
+    public void printCreatedTime() {
         System.out.println("PrototypeComponent created at: " + createdTime);
     }
 }

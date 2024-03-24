@@ -17,7 +17,7 @@ public class FirstSingleton {
         printCreatedTime();
     }
 
-    public void printCreatedTime(){
+    public void printCreatedTime() {
         System.out.println("FirstSingleton created at: " + createdTime);
     }
 }
