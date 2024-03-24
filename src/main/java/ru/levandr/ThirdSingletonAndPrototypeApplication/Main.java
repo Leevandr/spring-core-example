@@ -7,6 +7,6 @@ public class Main {
     public static void main(String[] args) {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
         System.out.println("Main call");
-        applicationContext.getBean(SecondSingleton.class);
+        applicationContext.getBean(MathAlgorithm.class);
     }
 }
