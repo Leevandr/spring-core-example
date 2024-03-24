@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @ComponentScan("ru.levandr.FourLifeCycleBean")
 public class AppConfig {
-    @Bean(initMethod = "afterInit", destroyMethod = "beforeDestroy")
+    @Bean
     public SimpleBean simpleBean(){
         return new SimpleBean();
     }
