@@ -10,12 +10,16 @@ repositories {
 }
 
 dependencies {
-    testImplementation platform('org.junit:junit-bom:5.10.0')
-    testImplementation 'org.junit.jupiter:junit-jupiter'
     // https://mvnrepository.com/artifact/org.springframework/spring-context
+    // spring
     implementation 'org.springframework:spring-context:6.1.5'
     // https://mvnrepository.com/artifact/jakarta.annotation/jakarta.annotation-api
+    // Библиотека для работы с аннотациями
     implementation 'jakarta.annotation:jakarta.annotation-api:3.0.0-M1'
+    // https://mvnrepository.com/artifact/org.yaml/snakeyaml
+    // Библиотека для работы с yml/yaml файлами
+    implementation 'org.yaml:snakeyaml:2.2'
+
 
 
 
