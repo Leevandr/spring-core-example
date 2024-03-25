@@ -2,10 +2,11 @@ package ru.levandr.SixProfileApplication.EnvPrinter;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Profile;
+import org.springframework.stereotype.Component;
 
-
-@Profile("prod")
-public class ProdEnvPrinter implements EnvPrinter {
+@Component
+@Profile("default")
+public class DefaultEnvPrinter implements EnvPrinter {
 
     @Value("${spring.profiles.active}")
     private String env;
@@ -13,7 +14,7 @@ public class ProdEnvPrinter implements EnvPrinter {
 
     @Override
     public void printEnv() {
-        System.out.println("ProdEnvPrinter is created");
-        System.out.println("Env is: " + env);
+        System.out.println("DefaultEnvPrinter is created");
+        System.out.println("DefaultEnvPrinter env is: " + env);
     }
 }
