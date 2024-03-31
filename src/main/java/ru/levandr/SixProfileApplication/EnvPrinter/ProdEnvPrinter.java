@@ -16,4 +16,11 @@ public class ProdEnvPrinter implements EnvPrinter {
         System.out.println("ProdEnvPrinter is created");
         System.out.println("Env is: " + env);
     }
+
+    @Override
+    public void printMegaInfo() {
+        System.out.println("Lev Huesos");
+    }
+
+
 }

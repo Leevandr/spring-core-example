@@ -17,4 +17,9 @@ public class DefaultEnvPrinter implements EnvPrinter {
         System.out.println("DefaultEnvPrinter is created");
         System.out.println("DefaultEnvPrinter env is: " + env);
     }
+
+    @Override
+    public void printMegaInfo() {
+
+    }
 }

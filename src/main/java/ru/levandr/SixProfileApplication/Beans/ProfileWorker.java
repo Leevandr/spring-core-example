@@ -18,4 +18,8 @@ public class ProfileWorker {
     public void doWork() {
         envPrinter.printEnv();
     }
+
+    public void doLevHuesos(){
+        envPrinter.printMegaInfo();
+    }
 }
